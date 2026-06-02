@@ -68,7 +68,7 @@ a {
 .lead {
   max-width: 680px;
   margin: 14px 0 0;
-  color: rgba(255, 255, 255, 0.84);
+  color: #fff;
   font-size: var(--size-sm);
 }
 
