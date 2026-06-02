@@ -175,13 +175,17 @@ tbody tr:last-child td {
 
 .capsule-card {
   overflow: hidden;
+  border: 1px solid var(--color-line);
   border-radius: 6px;
   background: var(--color-panel);
 }
 
 .capsule-image {
   display: grid;
-  min-height: 148px;
+  min-height: 156px;
+  margin: 10px 10px 0;
+  border-radius: 4px;
+  background: var(--color-surface);
   place-items: center;
 }
 
@@ -189,30 +193,6 @@ tbody tr:last-child td {
   width: min(48vw, 190px);
   max-height: 180px;
   object-fit: contain;
-}
-
-.cool {
-  background: var(--color-surface);
-}
-
-.dark {
-  background: var(--color-ink);
-}
-
-.red {
-  background: var(--color-surface);
-}
-
-.navy {
-  background: var(--color-ink);
-}
-
-.beige {
-  background: var(--color-surface);
-}
-
-.cream {
-  background: var(--color-surface);
 }
 
 .capsule-body {
