@@ -85,6 +85,10 @@ a {
   padding: 26px 20px;
 }
 
+.section-heading {
+  margin-bottom: 16px;
+}
+
 .section-heading h2,
 .source-note h2 {
   margin: 0;
