@@ -36,12 +36,14 @@ a {
 }
 
 .hero {
-  padding: 34px 20px 24px;
+  padding: 56px 20px 40px;
   background:
-    linear-gradient(180deg, rgba(33, 28, 24, 0.76), rgba(33, 28, 24, 0.92)),
-    url("https://www.nespresso.com/ecom/medias/sys_master/public/50980157587486/megadrop-coffee.jpg");
-  background-position: center;
-  background-size: cover;
+    linear-gradient(90deg, rgba(33, 28, 24, 0.96), rgba(33, 28, 24, 0.78)),
+    url("https://www.nespresso.com/shared_res/agility/global/coffees/ol/sku-main-info-product/athens-freddo-intenso_2x.png");
+  background-color: var(--color-ink);
+  background-position: center right -130px;
+  background-repeat: no-repeat;
+  background-size: min(92vw, 520px) auto;
   color: #fff;
 }
 
